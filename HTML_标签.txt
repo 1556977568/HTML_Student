@@ -1,0 +1,30 @@
+常用标签：
+//------------------列表
+    ol                              有序列表
+        li                              列表项
+
+    ul                              无序列表
+        li                              列表项
+
+    dl                              自定义列表
+        dt                              列表标题
+        dd                              列表描述
+
+//------------------表格
+    table：    表格
+        table中的属性：
+            border           table的边框
+            width            table的宽度
+            height           table的高度(不会修改thead和tfoot的高度)
+            cellspacing      table中每个单元格的间距(边框之间的距离)
+            align            水平对齐方式(在table中就是表格的对齐方式，在它的其他标签中是文字的对其方式)
+            valign           垂直对齐方式(在table中就是表格的对齐方式，在它的其他标签中是文字的对其方式)
+      table中的标签：
+          caption          表格标题(标题中使用width、height、cellspacing不会生效)
+          thead            表格头部(使用width、cellspacing不会生效)
+          tbody            表格主体
+          tfoot            表格脚注
+          tr               表格行
+          td,th            每个单元格(表格主体和脚注用td,表格头部用th)
+
+
