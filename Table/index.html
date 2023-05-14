@@ -8,60 +8,84 @@
     <title>表格</title>
 </head>
 <body>
-<table border="1" width="500" height="300"align="center" cellpadding="">
+<!--table一些能够使用的属性-->
+<table border="1" width="500" height="300" align="center" cellspacing="0" cellpadding="10">
     <!--    表格标题-->
     <caption>学生信息</caption>
-    <!--    表格头部-->
+    <!--    表格头部和一些能够使用的属性-->
     <thead height="100" align="right" valign="center">
-        <tr>
-            <th align="left" valign="top">姓名</th>
-            <th>性别</th>
-            <th>年龄</th>
-            <th>民族</th>
-            <th>政治面貌</th>
-        </tr>
+    <tr>
+        <th align="left" valign="top">姓名</th>
+        <th>性别</th>
+        <th>年龄</th>
+        <th>民族</th>
+        <th>政治面貌</th>
+    </tr>
     </thead>
     <!--    表格主体-->
     <tbody>
-        <tr>
-            <td>张三</td>
-            <td>男</td>
-            <td>18</td>
-            <td>汉族</td>
-            <td>团员</td>
-        </tr>
-        <tr>
-            <td>李四</td>
-            <td>女</td>
-            <td>28</td>
-            <td>坤族</td>
-            <td>团员</td>
-        </tr>
-        <tr>
-            <td>王五</td>
-            <td>男</td>
-            <td>18</td>
-            <td>汉族</td>
-            <td>团员</td>
-        </tr>
-        <tr>
-            <td>刘六</td>
-            <td>女</td>
-            <td>118</td>
-            <td>汉族</td>
-            <td>党员</td>
-        </tr>
+    <tr>
+        <td>张三</td>
+        <td>男</td>
+        <td>18</td>
+        <td>汉族</td>
+        <td>团员</td>
+    </tr>
+    <tr>
+        <td>李四</td>
+        <td>女</td>
+        <td>28</td>
+        <td>坤族</td>
+        <td>团员</td>
+    </tr>
+    <tr>
+        <td>王五</td>
+        <td>男</td>
+        <td>18</td>
+        <td>汉族</td>
+        <td>团员</td>
+    </tr>
+    <tr>
+        <td>刘六</td>
+        <td>女</td>
+        <td>118</td>
+        <td>汉族</td>
+        <td>党员</td>
+    </tr>
     </tbody>
     <!--    表格脚注-->
     <tfoot>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>共计4人</td>
-        </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>共计4人</td>
+    </tr>
     </tfoot>
+</table>
+
+<br>
+<br>
+<br>
+<!--表格合并-->
+<table cellspacing="0" border="1" align="center">
+    <tr>
+        <td>123</td>
+        <td colspan="2">123</td>
+        <td>123</td>
+    </tr>
+    <tr>
+        <td>123</td>
+        <td rowspan="2">123</td>
+        <td>123</td>
+        <td>123</td>
+    </tr>
+    <tr>
+        <td>123</td>
+        <td>123</td>
+        <td>123</td>
+    </tr>
 </table>
 </body>
 </html>
